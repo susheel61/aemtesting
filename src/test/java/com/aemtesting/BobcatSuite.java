@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 import com.aemtesting.GuiceModule;
-import com.aemtesting.summer.AddComponentTest;
+import com.aemtesting.example.AddComponentTest;
 import com.cognifide.qa.bb.junit.Modules;
 import com.cognifide.qa.bb.junit.concurrent.ConcurrentSuite;
 

@@ -1,4 +1,4 @@
-package com.aemtesting.summer;
+package com.aemtesting.example;
 
 import static org.junit.Assert.assertTrue;
 

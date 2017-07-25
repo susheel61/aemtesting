@@ -1,4 +1,4 @@
-package com.aemtesting.pageobjects.summer;
+package com.aemtesting.pageobjects.example;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

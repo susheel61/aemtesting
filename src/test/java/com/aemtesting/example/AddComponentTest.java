@@ -1,4 +1,4 @@
-package com.aemtesting.summer;
+package com.aemtesting.example;
 
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -15,8 +15,8 @@ import org.openqa.selenium.WebElement;
 
 import com.aemtesting.GuiceModule;
 import com.aemtesting.custom.EditToolbarUtil;
-import com.aemtesting.pageobjects.summer.ImageComponent;
-import com.aemtesting.pageobjects.summer.WhatIsBobcatPage;
+import com.aemtesting.pageobjects.example.ImageComponent;
+import com.aemtesting.pageobjects.example.WhatIsBobcatPage;
 import com.cognifide.qa.bb.aem.AemLogin;
 import com.cognifide.qa.bb.aem.ui.AemContentFinder;
 import com.cognifide.qa.bb.aem.ui.parsys.AemParsys;
