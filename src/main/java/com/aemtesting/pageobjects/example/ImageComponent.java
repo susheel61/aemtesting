@@ -10,28 +10,21 @@ import com.cognifide.qa.bb.aem.dialog.classic.field.image.AemImage;
 import com.cognifide.qa.bb.aem.qualifier.DialogField;
 import com.cognifide.qa.bb.aem.ui.AemDialog;
 import com.cognifide.qa.bb.aem.ui.component.AemComponent;
-import com.cognifide.qa.bb.aem.ui.menu.AemToolbar;
 import com.cognifide.qa.bb.dragdrop.Draggable;
 import com.cognifide.qa.bb.qualifier.PageObject;
 import com.google.inject.Inject;
 
 /**
  * Represents a single image component in the Gometrixx page.
- * <p/>
- * You can easily reuse this class, perhaps with a small modification, to create
- * your own components.
  */
 @PageObject
 @AemComponent(cssClassName = "image", group = "Geometrixx Media", name = "Image")
-public class ImageComponent extends BaseComponent{
+public class ImageComponent extends BaseComponent {
 	/**
 	 * Image component has a dialog.
 	 */
 	@Inject
 	private AemDialog dialog;
-
-	@Inject
-	private AemToolbar toolbar;
 
 	/**
 	 * Dialog contains an image field.
@@ -70,13 +63,6 @@ public class ImageComponent extends BaseComponent{
 	 */
 	public AemDialog getDialog() {
 		return dialog;
-	}
-
-	/**
-	 * @return Toolbar instance.
-	 */
-	public AemToolbar getToolbar() {
-		return toolbar;
 	}
 
 	/**
